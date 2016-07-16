@@ -7,9 +7,8 @@ This package provides a `BitMap` class which is an array of bits stored in compa
 
 `bitmap` can be installed from `pip`:
 
-```
-#!bash
-  $ sudo pip install bitmap
+```bash
+$ sudo pip install bitmap
 ```
 
 # Functions
@@ -30,8 +29,7 @@ This package provides a `BitMap` class which is an array of bits stored in compa
 
 # Examples
 
-```
-#!python
+```python
 from bitmap import BitMap
 bm = BitMap(32)
 print bm.tostring()
